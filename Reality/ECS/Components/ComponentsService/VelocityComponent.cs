@@ -1,6 +1,6 @@
 ﻿using Reality.ECS.Components.IComponents;
 
-namespace Reality.ECS.Components.ComponentsServicec
+namespace Reality.ECS.Components.ComponentsService
 {
     public class VelocityComponent : IComponent
     {

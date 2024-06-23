@@ -1,7 +1,7 @@
 ﻿using Reality.ECS.Components.IComponents;
 using System;
 
-namespace Reality.ECS.Components.ComponentsServicec
+namespace Reality.ECS.Components.ComponentsService
 {
     public class PowerComponent : IComponent
     {

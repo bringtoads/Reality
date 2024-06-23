@@ -7,14 +7,7 @@ namespace Reality.ECS.Managers
     {
         private readonly List<Entity> _entities = new List<Entity>();
 
-        public Entity CreateEntity()
-        {
-            var entity = new Entity();
-            _entities.Add(entity);
-            return entity;
-        }
-
-        public void CreateEntity(Entity entity)
+        public void AddEntity(Entity entity)
         {
             _entities.Add(entity);
         }
@@ -24,7 +17,7 @@ namespace Reality.ECS.Managers
             _entities.Remove(entity);
         }
 
-        public IEnumerable<Entity> GetAllEntities()
+        public List<Entity> GetEntities()
         {
             return _entities;
         }

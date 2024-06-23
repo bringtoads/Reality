@@ -47,7 +47,7 @@ namespace Reality
             // Instantiate and add your systems here
             Systems.Add(new CombatSystem(EntityManager));
             Systems.Add(new PowerSystem());
-            Systems.Add(new MovementSystem());
+            //Systems.Add(new MovementSystem());
             Systems.Add(new SpriteSystem(SpriteBatch, new Camera(Graphics.GraphicsDevice.Viewport)));
 
 

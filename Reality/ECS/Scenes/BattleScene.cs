@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Reality.ECS.Entities;
 using System;
-using Reality.ECS.Components.ComponentsServicec;
+using Reality.ECS.Components.ComponentsService;
 using Microsoft.Xna.Framework.Input;
 
 namespace Reality.ECS.Scenes

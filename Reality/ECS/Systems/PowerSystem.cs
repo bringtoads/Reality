@@ -1,5 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
-using Reality.ECS.Components.ComponentsServicec;
+using Reality.ECS.Components.ComponentsService;
 using Reality.ECS.Entities;
 using System.Collections.Generic;
 

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using Reality.ECS.Components.ComponentsServicec;
+using Reality.ECS.Components.ComponentsService;
 using Reality.ECS.Entities;
 using Reality.ECS.Systems;
 using System;

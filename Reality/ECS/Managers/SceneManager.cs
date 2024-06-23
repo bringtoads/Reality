@@ -3,6 +3,7 @@ using Reality.ECS.Scenes;
 
 namespace Reality.ECS.Managers
 {
+    // screen and scene are same i just created two folders because i am dumb
     public class SceneManager
     {
         private Scene _currentScene;
